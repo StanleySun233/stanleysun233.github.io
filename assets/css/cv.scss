@@ -1,4 +1,4 @@
-@import "minima";
+@import "jekyll-academic";
 
 .cv {
   max-width: 800px;
@@ -12,15 +12,27 @@
 .cv-header {
   text-align: center;
   margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 
 .cv-title {
   font-size: 2.2em;
   margin-bottom: 10px;
+  color: #2c3e50;
 }
 
 .cv-contact {
   margin-bottom: 20px;
+  
+  p {
+    margin: 5px 0;
+    
+    i {
+      margin-right: 10px;
+      color: #3498db;
+    }
+  }
 }
 
 .cv-content {
@@ -29,6 +41,7 @@
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
     margin-top: 30px;
+    color: #2c3e50;
   }
 }
 
@@ -36,8 +49,13 @@
 .school {
   margin-bottom: 20px;
   padding: 15px;
-  border-left: 3px solid #0066cc;
+  border-left: 3px solid #3498db;
   background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(5px);
+  }
 }
 
 .school-header {
@@ -60,28 +78,37 @@
 .school-info h3 {
   margin: 0;
   font-size: 1.2em;
+  color: #2c3e50;
 }
 
 .school-info p {
   margin: 5px 0 0 0;
+  color: #666;
 }
 
 /* 论文样式 */
 .paper {
   margin-bottom: 20px;
   padding: 15px;
-  border-left: 3px solid #4CAF50;
+  border-left: 3px solid #2ecc71;
   background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(5px);
+  }
 }
 
 .paper-title {
   font-weight: bold;
   margin-bottom: 5px;
+  color: #2c3e50;
 }
 
 .paper-authors {
   font-style: italic;
   margin-bottom: 5px;
+  color: #666;
 }
 
 .paper-venue {
@@ -90,7 +117,7 @@
 }
 
 .paper-link {
-  color: #0066cc;
+  color: #3498db;
   text-decoration: none;
   
   &:hover {
@@ -102,30 +129,43 @@
 .experience {
   margin-bottom: 20px;
   padding: 15px;
-  border-left: 3px solid #FF9800;
+  border-left: 3px solid #e67e22;
   background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(5px);
+  }
 }
 
 .experience h3 {
   margin: 0 0 5px 0;
   font-size: 1.2em;
+  color: #2c3e50;
 }
 
 .experience p {
   margin: 0 0 10px 0;
+  color: #666;
 }
 
 /* 项目样式 */
 .project {
   margin-bottom: 20px;
   padding: 15px;
-  border-left: 3px solid #9C27B0;
+  border-left: 3px solid #9b59b6;
   background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(5px);
+  }
 }
 
 .project h3 {
   margin: 0 0 5px 0;
   font-size: 1.2em;
+  color: #2c3e50;
 }
 
 /* 通用列表样式 */
@@ -136,11 +176,12 @@ ul {
 
 li {
   margin-bottom: 5px;
+  color: #666;
 }
 
 /* 链接样式 */
 a {
-  color: #0066cc;
+  color: #3498db;
   text-decoration: none;
   
   &:hover {

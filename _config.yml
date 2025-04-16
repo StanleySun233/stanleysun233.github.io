@@ -10,7 +10,7 @@ github_username: ""
 
 # Build settings
 markdown: kramdown
-theme: academicpages
+theme: jekyll-academic
 plugins:
   - jekyll-relative-links
   - jekyll-seo-tag

@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<div class="cv">
-  <div class="cv-header">
+<article class="cv">
+  <header class="cv-header">
     <h1 class="cv-title">{{ page.title }}</h1>
     <div class="cv-contact">
-      <p>{{ site.email }}</p>
-      <p>{{ site.description }}</p>
+      <p><i class="fas fa-envelope"></i> {{ site.email }}</p>
+      <p><i class="fas fa-graduation-cap"></i> {{ site.description }}</p>
     </div>
-  </div>
+  </header>
 
   <div class="cv-content">
     {{ content }}
   </div>
-</div> 
+</article> 
