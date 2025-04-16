@@ -1,5 +1,20 @@
 {% assign papers = site.data.papers | sort: 'date' | reverse %}
-{% for paper in papers %}
+{% assign co_first_papers = papers | where_exp: "paper", "paper.authors contains 'S Sun,' or paper.authors contains ', S Sun,'" %}
+{% assign other_papers = papers | where_exp: "paper", "paper.authors contains 'S Sun' and not paper.authors contains 'S Sun,' and not paper.authors contains ', S Sun,'" %}
+
+{% for paper in co_first_papers %}
+<div class="paper">
+  <p class="paper-title">{{ paper.title }}</p>
+  <p class="paper-authors">{{ paper.authors }}</p>
+  {% if paper.url %}
+  <a href="{{ paper.url }}" class="paper-link">
+    <i class="fas fa-file-pdf"></i> PDF
+  </a>
+  {% endif %}
+</div>
+{% endfor %}
+
+{% for paper in other_papers %}
 <div class="paper">
   <p class="paper-title">{{ paper.title }}</p>
   <p class="paper-authors">{{ paper.authors }}</p>
