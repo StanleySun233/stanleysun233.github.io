@@ -1,6 +1,6 @@
 {% assign papers = site.data.papers | sort: 'date' | reverse %}
-{% assign co_first_papers = papers | where_exp: "paper", "paper.authors contains 'S Sun,' or paper.authors contains ', S Sun,'" %}
-{% assign other_papers = papers | where_exp: "paper", "paper.authors contains 'S Sun' and not paper.authors contains 'S Sun,' and not paper.authors contains ', S Sun,'" %}
+{% assign co_first_papers = papers | where_exp: "paper", "paper.authors contains '**__S Sun__**'" %}
+{% assign other_papers = papers | where_exp: "paper", "paper.authors contains 'S Sun' and not paper.authors contains '**__S Sun__**'" %}
 
 {% for paper in co_first_papers %}
 <div class="paper">
