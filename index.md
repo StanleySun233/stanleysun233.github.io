@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Home
+layout: cv
+title: Sijin Sun
 ---
 
 {% include profile.html %}
