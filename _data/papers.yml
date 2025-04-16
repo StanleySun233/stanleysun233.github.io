@@ -5,16 +5,16 @@
   url: ""
 
 - title: "HeRo: Hierarchical Reasoning for Deep Understanding of Long Documents"
-  authors: "Submitted to ICANN2025(CCF-C)"
-  venue: "ICANN2025"
+  authors: "Third author"
+  venue: "Submitted to ICANN2025"
   date: "2025-03"
   url: ""
 
 - title: "Lightweight Multimodal AI Framework for Maritime Multi-Scene Recognition"
-  authors: "Submitted to EAAI(SCI Q2TOP)"
-  venue: "EAAI"
+  authors: "Forth author"
+  venue: "Submitted to EAAI(SCI Q2TOP)"
   date: "2025-03"
-  url: ""
+  url: "https://arxiv.org/abs/2503.06978"
 
 - title: "HREB-CRF: Hierarchical Reduced-bias EMA for Chinese Named Entity Recognition"
   authors: "<mark style='background-color: yellow'><strong>S Sun</strong></mark>, M Deng, X Yu, L Zhao"
