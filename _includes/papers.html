@@ -1,0 +1,11 @@
+{% assign papers = site.data.papers | sort: 'date' | reverse %}
+{% for paper in papers %}
+<div class="paper">
+  <p class="paper-title">{{ paper.title }}</p>
+  <p class="paper-authors">{{ paper.authors }}</p>
+  <p class="paper-venue">{{ paper.venue }}</p>
+  {% if paper.url %}
+  <a href="{{ paper.url }}">[PDF]</a>
+  {% endif %}
+</div>
+{% endfor %} 

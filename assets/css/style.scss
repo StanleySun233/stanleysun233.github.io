@@ -1,0 +1,41 @@
+@import "minima";
+
+.profile {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.paper {
+  margin-bottom: 1.5em;
+}
+
+.paper-title {
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.paper-authors {
+  font-style: italic;
+  margin-bottom: 0.2em;
+}
+
+.paper-venue {
+  color: #666;
+  margin-bottom: 0.2em;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+} 

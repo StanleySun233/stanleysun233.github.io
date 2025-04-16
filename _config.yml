@@ -1,0 +1,27 @@
+title: Sijin Sun
+email: sun.sijin@u.nus.edu
+description: >-
+  Master Student in Maritime Technology and Management at National University of Singapore
+baseurl: ""
+url: ""
+github_username: StanleySun233
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Include directories
+include:
+  - assets/images
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore 
