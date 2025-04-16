@@ -1,0 +1,14 @@
+{% assign profile = site.data.profile %}
+
+<div class="profile">
+  <img src="{{ profile.image | relative_url }}" alt="Profile Photo" class="profile-img">
+</div>
+
+<h1>{{ profile.name }}</h1>
+
+<div class="contact-info">
+  <p>{{ profile.title }}</p>
+  <p>{{ profile.institution }}</p>
+  <p>Email: <a href="mailto:{{ profile.email }}">{{ profile.email }}</a></p>
+  <p>Phone: {{ profile.phone }}</p>
+</div> 

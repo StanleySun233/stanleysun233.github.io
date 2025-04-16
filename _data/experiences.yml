@@ -1,0 +1,23 @@
+- company: "Agency for Science, Technology and Research"
+  period: "2024.12 - 2025.06"
+  position: "Institute of High Performance Computing - Research Intern"
+  responsibilities:
+    - "LLM: Design Agent LLM in maritime field"
+    - "Reinforcement Learning: Design reinforcement learning for autonomous driving of unmanned ships"
+    - "Research: 2 CCF-C conference papers accepted with first author"
+
+- company: "NIO AUTOMOBILE"
+  period: "2023.08 - 2024.06"
+  position: "Industrialization - Software Quality Management(Auto Drive)"
+  responsibilities:
+    - "Dev & Test: Participated in mis-identification cases of cones and water barriers"
+    - "Data Analysis: Developed and maintained software quality indicator dashboards"
+    - "Project Management: Designed and applied software quality indicators based on 6-Sigma"
+
+- company: "Société Générale Equipment Finance"
+  period: "2022.08 - 2023.08"
+  position: "OPERATION - IT Intern"
+  responsibilities:
+    - "Data Analysis: Designed abtest for sales department"
+    - "Software Development: Completed core software level 3 version update"
+    - "Project Management: Collected KYC management system requirements" 

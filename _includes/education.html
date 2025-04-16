@@ -1,0 +1,18 @@
+{% assign education = site.data.education | sort: 'period' | reverse %}
+
+{% for edu in education %}
+<div class="education">
+    <div class="school-header">
+        <img src="{{ edu.logo | relative_url }}" alt="{{ edu.school }} Logo" class="school-logo">
+        <div class="school-info">
+            <h3>{{ edu.school }} ({{ edu.period }})</h3>
+            <p>{{ edu.degree }}</p>
+        </div>
+    </div>
+    <ul>
+        {% for detail in edu.details %}
+        <li>{{ detail }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %} 

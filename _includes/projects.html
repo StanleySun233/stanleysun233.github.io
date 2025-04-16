@@ -1,0 +1,12 @@
+{% assign projects = site.data.projects | sort: 'period' | reverse %}
+
+{% for project in projects %}
+<div class="project">
+    <h3>{{ project.name }} ({{ project.period }})</h3>
+    <ul>
+        {% for desc in project.description %}
+        <li>{{ desc }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %} 

@@ -1,0 +1,13 @@
+{% assign experiences = site.data.experiences | sort: 'period' | reverse %}
+
+{% for exp in experiences %}
+<div class="experience">
+    <h3>{{ exp.company }} ({{ exp.period }})</h3>
+    <p><strong>{{ exp.position }}</strong></p>
+    <ul>
+        {% for resp in exp.responsibilities %}
+        <li>{{ resp }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %} 

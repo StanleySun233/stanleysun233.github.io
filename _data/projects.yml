@@ -1,0 +1,19 @@
+- name: "Cruise Ship Restaurant Ordering System"
+  period: "2024.02 - 2024.07"
+  description:
+    - "Developed management system for ship restaurant"
+    - "Implemented RESTful APIs and database optimization"
+    - "Technologies: Spring Boot, MyBatis, MySQL, Redis, MinIO"
+
+- name: "Ship Maintenance Management System"
+  period: "2022.01 - 2022.11"
+  description:
+    - "Developed Lubricating Oil Management subsystem"
+    - "Implemented automation of procurement process"
+
+- name: "International Underwater Robot Competition"
+  period: "2021.08 - 2021.12"
+  description:
+    - "Won first prize at international level"
+    - "Developed underwater robot control system"
+    - "Implemented PID tracking algorithm and image processing" 

@@ -1,0 +1,15 @@
+- school: "National University of Singapore"
+  period: "2024.08 - 2025.06"
+  degree: "Master in Maritime Technology and Management"
+  logo: "/assets/images/nus.png"
+  details:
+    - "Average Score: 86.50"
+
+- school: "Shanghai Maritime University"
+  period: "2020.10 - 2024.06"
+  degree: "Bachelor in Computer Science and Technology"
+  logo: "/assets/images/shmtu.png"
+  details:
+    - "Second Prize Scholarship"
+    - "Ranked: 6/77"
+    - "Average Score: 86.92" 
